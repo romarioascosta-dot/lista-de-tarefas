@@ -1,0 +1,66 @@
+body {
+    background-color:dimgray;
+    color: #fff;
+    font-family: monospace;
+   
+}
+
+.title { 
+    font-size: 48px;
+    color: #00ff7f;
+            
+}
+
+.list-item {
+    margin-bottom: 20px;
+    font-size: 50px;
+
+}
+
+#list {
+  font-size: 38px;
+}
+
+
+input {
+    height: 48px;
+    border-radius: 4px;
+    background-color:#00ff7f ;
+    color: black;
+    border: 1px solid #00ff7f;
+    font-size: 16px;
+    padding: 8px;
+
+}
+
+.reset-button {
+  font-size: 16px;
+  padding: 16px;
+  background-color: #b22222;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  font-family: monospace;
+  margin-left: 8px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+white-space: nowrap;
+}
+
+.add-task-button {
+    font-size: 16px;
+    padding: 16px;
+    background-color: #228b22;
+    border-width: 0px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight:bold;
+    font-family: monospace;
+}
